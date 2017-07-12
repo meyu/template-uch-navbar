@@ -1,12 +1,27 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body {
-	background: linear-gradient(to right, rgba(100,179,244,0.9), rgba(194,229,156,0.9)); 
-	font-family: 'Noto Sans TC', sans-serif;
-	font-weight: 300;
 	margin-top: 55px;
 }
 .slow-spin {
   -webkit-animation: fa-spin 55s infinite linear;
   animation: fa-spin 55s infinite linear;
+}
+
+/* 選單字型 */
+nav {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 300;
+}
+/* 標題字顏色 */
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+	color: white !important;
+}
+/* 選單字顏色 */
+.navbar-light .navbar-nav .nav-link {
+		color: white;
+}
+/* 選單底色 */
+.navbar-fancy {
+	background: linear-gradient(to left bottom, rgba(100,179,244,0.9), rgba(194,229,156,0.9)); 
 }
